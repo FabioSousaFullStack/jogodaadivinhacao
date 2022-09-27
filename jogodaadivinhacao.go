@@ -6,7 +6,7 @@ import(
 )
 
 func main(){
-	numeroRandomico := rand.Intn(99)
+	numeroRandomico := rand.Intn(100)
 
 	var numeroDigitado int
 
