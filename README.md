@@ -19,3 +19,7 @@ Este jogo foi elaborado para estudos da linguagem Go.
 - Parabéns você acertou, fim de jogo.
 
 4. O jogo termina quando o jogador acerta o número randômico.
+
+### Dificuldades encontradas
+
+Nos laços do Go o não se usa while, usa-se o for.
