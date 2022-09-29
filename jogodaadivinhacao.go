@@ -10,25 +10,22 @@ func main(){
 
 	fmt.Println("1. Nível Fácil, números entre 0 e 100")
 	fmt.Println("2. Nivel médio, números entre 0 e 1000")
-	fmt.Println("3. Nível difícil, números entre 0 e 10000")
+	fmt.Println("Ou outro número: Nível difícil, números entre 0 e 10000")
 	fmt.Print("Digite o nivel: ")
 	
+	var nivel int
+	fmt.Scan(&nivel)
+	
 
-	
-	var nivel string
-	fmt.Scan(&nivelEscolhido)
-	
 	switch nivel{
-		case "1":
+		case 1:
 			nivelEscolhido = 100
-	
-		case "2":
-			nivelEscolhido = 1000
 		
-		case "3":
-			nivelEscolhido=10000
-
-	}
+		case 2:
+			nivelEscolhido = 1000
+		default:
+			nivelEscolhido = 10000
+	}	
 	
 	numeroRandomico := rand.Intn(nivelEscolhido)
 	
