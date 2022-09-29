@@ -12,19 +12,20 @@ func main(){
 	fmt.Println("2. Nivel médio, números entre 0 e 1000")
 	fmt.Println("3. Nível difícil, números entre 0 e 10000")
 	fmt.Print("Digite o nivel: ")
+	
+
+	
+	var nivel string
 	fmt.Scan(&nivelEscolhido)
-
 	
-	var nivel int
-
 	switch nivel{
-		case 1:
-			nivelEscolhido = 300
+		case "1":
+			nivelEscolhido = 100
 	
-		case 2:
+		case "2":
 			nivelEscolhido = 1000
 		
-		case 3:
+		case "3":
 			nivelEscolhido=10000
 
 	}
